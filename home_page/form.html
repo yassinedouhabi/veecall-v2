@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="css/gradient.css" />
+		<link rel="stylesheet" href="/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/css/all.min.css" />
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/form.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="header-nav">
+					<div class="nav-logo">
+						<a href="#">
+							<h1 class="temporary-logo">VeeCall</h1>
+						</a>
+					</div>
+					<nav class="nav-top-menu" id="menu">
+						<ul class="menu-list">
+							<li class="menu-links"><a href="#">Home</a></li>
+							<li class="menu-links"><a href="#">About Us</a></li>
+							<li class="menu-links"><a href="#">Contact Us</a></li>
+							<li class="menu-links"><a href="#">Rules</a></li>
+							<li class="menu-links"><a href="#">FAQ</a></li>
+						</ul>
+						<div class="menu-icon open-menu">
+							<i class="fa-solid fa-bars"></i>
+						</div>
+						<div class="nav-toggle-menu-top menu-icon close-menu" style="display: none">
+							<i class="fa-solid fa-xmark"></i>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section class="modal">
+			<div class="container">
+				<div class="modal-content">
+					<div class="modal-top">
+						<span class="close">&times;</span>
+						<h2 class="modal-heading">Welcome to VeeCall! 🫶</h2>
+					</div>
+					<p class="modal-p">
+						<i class="fa-solid fa-circle-info"></i>
+						Please fill out the following information to get started.
+					</p>
+					<form class="modal-form">
+						<label for="user-gender">
+							<i class="fa-solid fa-user"></i>
+							Your Gender:
+						</label>
+						<select id="user-gender" name="user-gender" required>
+							<option value="">Please select</option>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+						</select>
+
+						<label for="target-gender">
+							<i class="fa-solid fa-user-secret"></i>
+							Target Gender:
+						</label>
+						<select id="target-gender" name="target-gender" required>
+							<option value="">Please select</option>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="Random">Random</option>
+						</select>
+
+						<label for="age">Age:</label>
+						<input type="number" id="age" name="age" min="13" max="80" placeholder="Enter your age" required />
+						<label class="accept-privacy">
+							<input type="checkbox" id="privacy-policy" name="privacy-policy" required />
+							I have read and agree to the <a href="#">privacy policy</a>.
+						</label>
+
+						<div class="button-container">
+							<div class="standard-order">
+								<button type="submit" class="text-chat-btn chat-btn">
+									Text Chat
+									<i class="fa-solid fa-message"></i>
+								</button>
+								<button type="submit" class="video-chat-btn chat-btn">
+									Video Chat
+									<i class="fa-solid fa-video"></i>
+								</button>
+							</div>
+							<div class="premium-order">
+								<button type="button" class="premium-chat-btn">
+									<i class="fa-solid fa-crown"></i>
+									purchase now
+									<i class="fa-solid fa-crown"></i>
+								</button>
+								<p class="only-for-premium">* Upgrade for ad-free chat, verified users, and exclusive perks. Unlock Premium Chat now!</p>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/all.min.js"></script>
+		<script type="module" src="js/Gradrunner.js"></script>
+		<script type="module" src="js/Gradient.js"></script>
+		<script src="/js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+/* Start Modal Rules */
+.modal {
+	display: block;
+	position: initial;
+	background-color: transparent;
+	padding-top: calc(var(--main-section-padding) / 4);
+}
+.modal-content {
+	background-color: initial;
+	margin: auto;
+	width: initial;
+	padding: 0;
+	border: none;
+	max-width: 600px;
+	position: initial;
+	border-radius: initial;
+}
+.modal-top {
+	margin-bottom: 1rem;
+}
+.close {
+	display: none;
+}
+h2.modal-heading {
+	font-size: 24px;
+	font-weight: 700;
+	padding: 0;
+	border-bottom: 0;
+}
+i.fa-solid.fa-circle-info {
+	font-size: 18px;
+}
+p.modal-p {
+	flex-direction: row;
+}
+p.modal-p:hover {
+	background-color: var(--primary-clr-100);
+	color: white;
+}
+label.accept-privacy {
+	font-size: 14px;
+}
+.button-container {
+	padding-top: 1rem;
+	width: 100%;
+	margin: auto;
+}
