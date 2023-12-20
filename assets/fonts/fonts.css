@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Kalnia Expanded";
-    src: url("./assets/fonts/KalniaExpanded-Medium.woff2") format("woff2"), url("./assets/fonts/KalniaExpanded-Medium.woff") format("woff");
+    src: url("/assets/fonts/KalniaExpanded-Medium.woff2") format("woff2"), url("/assets/fonts/KalniaExpanded-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "Kalnia Expanded";
-    src: url("./assets/fonts/KalniaExpanded-Bold.woff2") format("woff2"), url("./assets/fonts/KalniaExpanded-Bold.woff") format("woff");
+    src: url("/assets/fonts/KalniaExpanded-Bold.woff2") format("woff2"), url("/assets/fonts/KalniaExpanded-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: "Kalnia Expanded";
-    src: url("./assets/fonts/KalniaExpanded-SemiBold.woff2") format("woff2"), url("./assets/fonts/KalniaExpanded-SemiBold.woff") format("woff");
+    src: url("/assets/fonts/KalniaExpanded-SemiBold.woff2") format("woff2"), url("/assets/fonts/KalniaExpanded-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: "Kalnia Expanded";
-    src: url("./assets/fonts/KalniaExpanded-Regular.woff2") format("woff2"), url("./assets/fonts/KalniaExpanded-Regular.woff") format("woff");
+    src: url("/assets/fonts/KalniaExpanded-Regular.woff2") format("woff2"), url("/assets/fonts/KalniaExpanded-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -32,7 +32,7 @@
 
 @font-face {
     font-family: "Poppins";
-    src: url("./assets/fonts/Poppins-Light.woff2") format("woff2"), url("./assets/fonts/Poppins-Light.woff") format("woff");
+    src: url("/assets/fonts/Poppins-Light.woff2") format("woff2"), url("/assets/fonts/Poppins-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -40,7 +40,7 @@
 
 @font-face {
     font-family: "Poppins";
-    src: url("./assets/fonts/Poppins-Regular.woff2") format("woff2"), url("./assets/fonts/Poppins-Regular.woff") format("woff");
+    src: url("/assets/fonts/Poppins-Regular.woff2") format("woff2"), url("/assets/fonts/Poppins-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -48,7 +48,7 @@
 
 @font-face {
     font-family: "Poppins";
-    src: url("./assets/fonts/Poppins-SemiBold.woff2") format("woff2"), url("./assets/fonts/Poppins-SemiBold.woff") format("woff");
+    src: url("/assets/fonts/Poppins-SemiBold.woff2") format("woff2"), url("/assets/fonts/Poppins-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -56,7 +56,7 @@
 
 @font-face {
     font-family: "Poppins";
-    src: url("./assets/fonts/Poppins-Thin.woff2") format("woff2"), url("./assets/fonts/Poppins-Thin.woff") format("woff");
+    src: url("/assets/fonts/Poppins-Thin.woff2") format("woff2"), url("/assets/fonts/Poppins-Thin.woff") format("woff");
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -64,7 +64,7 @@
 
 @font-face {
     font-family: "Poppins";
-    src: url("./assets/fonts/Poppins-Medium.woff2") format("woff2"), url("./assets/fonts/Poppins-Medium.woff") format("woff");
+    src: url("/assets/fonts/Poppins-Medium.woff2") format("woff2"), url("/assets/fonts/Poppins-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -72,7 +72,7 @@
 
 @font-face {
     font-family: "Poppins";
-    src: url("./assets/fonts/Poppins-Bold.woff2") format("woff2"), url("./assets/fonts/Poppins-Bold.woff") format("woff");
+    src: url("/assets/fonts/Poppins-Bold.woff2") format("woff2"), url("/assets/fonts/Poppins-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
